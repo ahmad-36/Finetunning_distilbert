@@ -138,10 +138,5 @@ inference_model = AutoModelForSequenceClassification.from_pretrained(
 model = PeftModel.from_pretrained(inference_model, model_id)
 ```
 
-## Conclusion
-This project showcases how to fine-tune **DistilBERT** efficiently using **LoRA**, optimize for sentiment classification, and deploy the model to Hugging Face for easy access and inference.
 
----
-### Author
-[Shawhin Talebi](https://huggingface.co/shawhin)
 
